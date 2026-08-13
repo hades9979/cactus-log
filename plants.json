@@ -6,8 +6,30 @@
     "features": "四肋、星點分明、狀態健康",
     "potSize": "3 吋",
     "purchaseDate": "2026-08-13",
-    "repotDate": "2026-08-13",  
+    "repotDate": "2026-08-13",
     "purchaseFrom": "田尾某溫室",
     "notes": "剛買回家，頭好壯壯！"
+  },
+  {
+    "id": "A002",
+    "name": "雪白毛鸞鳳",
+    "species": "Astrophytum myriostigma var. quadricostatum",
+    "features": "五肋、白毛密布、成株",
+    "potSize": "3.5 吋",
+    "purchaseDate": "2026-06-01",
+    "repotDate": "2026-06-15",
+    "purchaseFrom": "網路花友",
+    "notes": "毛非常漂亮，需注意避免澆水直接淋到頭部。"
+  },
+  {
+    "id": "A003",
+    "name": "小苗實驗組",
+    "species": "鸞鳳玉混合播種",
+    "features": "三肋潛力股、無星點、翠綠",
+    "potSize": "2 吋",
+    "purchaseDate": "2026-07-20",
+    "repotDate": "2026-07-20",
+    "purchaseFrom": "自己播種",
+    "notes": "發芽率很好，目前正在努力度過小苗期。"
   }
 ]
