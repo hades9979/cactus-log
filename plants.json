@@ -1,7 +1,7 @@
 [
- {
+  {
     "id": "A001",
-    "image":"https://github.com/hades9979/cactus-log/blob/main/5.png?raw=true",
+    "image": "https://github.com/hades9979/cactus-log/blob/main/5.png?raw=true",
     "name": "雷神王妃白中斑",
     "species": "龍舌蘭",
     "features": "收到時未發根",
@@ -11,24 +11,36 @@
     "purchaseFrom": "高橋玉",
     "notes": "拿到時美美搭 狀態好",
     "history": [
-      { "date": "2026-07-22", "event": "收到" },
-      { "date": "2026-07-25", "event": "入盆" },
-      { "date": "2026-07-31", "event": "底葉開始瘀青" }
+      {
+        "date": "2026-07-22",
+        "event": "收到"
+      },
+      {
+        "date": "2026-07-25",
+        "event": "入盆"
+      },
+      {
+        "date": "2026-07-31",
+        "event": "底葉開始瘀青"
+      }
     ]
   },
   {
     "id": "A002",
-    "name": "雪白毛鸞鳳",
-    "species": "Astrophytum myriostigma var. quadricostatum",
-    "features": "五肋、白毛密布、成株",
+    "image": "https://github.com/hades9979/cactus-log/blob/main/6.png?raw=true",
+    "name": "嚴龍",
+    "species": "龍舌蘭",
+    "features": "無",
     "potSize": "3.5 吋",
-    "purchaseDate": "2026-06-01",
-    "repotDate": "2026-06-15",
-    "purchaseFrom": "網路花友",
-    "notes": "毛非常漂亮，需注意避免澆水直接淋到頭部。"
+    "purchaseDate": "2026-07-22",
+    "repotDate": "2026-07-25",
+    "purchaseFrom": "老高送der",
+    "notes": "曝曬實驗組",
+    "history": null
   },
   {
     "id": "A003",
+    "image": null,
     "name": "小苗實驗組",
     "species": "鸞鳳玉混合播種",
     "features": "三肋潛力股、無星點、翠綠",
@@ -36,6 +48,7 @@
     "purchaseDate": "2026-07-20",
     "repotDate": "2026-07-20",
     "purchaseFrom": "自己播種",
-    "notes": "發芽率很好，目前正在努力度過小苗期。"
+    "notes": "發芽率很好，目前正在努力度過小苗期。",
+    "history": null
   }
 ]
