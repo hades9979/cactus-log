@@ -10,6 +10,10 @@
         h1 { color: #2c3e50; font-size: 24px; }
         p { color: #555; line-height: 1.6; margin: 8px 0; }
         .highlight { color: #27ae60; font-weight: bold; }
+        .timeline { margin-top: 20px; border-left: 2px solid #27ae60; padding-left: 15px; }
+        .timeline-item { margin-bottom: 10px; position: relative; }
+        .timeline-date { font-size: 12px; color: #888; }
+        .timeline-event { font-size: 14px; color: #333; }
     </style>
 </head>
 <body>
@@ -34,6 +38,21 @@
                     const diffTime = Math.abs(today - purchaseDate);
                     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
+                    // 動態產生時間軸的 HTML
+                    let historyHtml = '';
+                    if (plant.history && plant.history.length > 0) {
+                        plant.history.forEach(h => {
+                            historyHtml += `
+                                <div class="timeline-item">
+                                    <div class="timeline-date">📅 ${h.date}</div>
+                                    <div class="timeline-event">${h.event}</div>
+                                </div>
+                            `;
+                        });
+                    } else {
+                        historyHtml = '<p>尚無歷史紀錄</p>';
+                    }
+
                     container.innerHTML = `
                         <h1>🌵 ${plant.name}</h1>
                         <p><strong>品種：</strong> ${plant.species}</p>
@@ -41,9 +60,14 @@
                         <p><strong>盆寸：</strong> ${plant.potSize}</p>
                         <p><strong>入手日期：</strong> ${plant.purchaseDate}</p>
                         <p><strong>已照顧天數：</strong> <span class="highlight">${diffDays} 天</span></p>
-                        <p><strong>換盆日：</strong> ${plant.repotDate}</p>                  
+                        <p><strong>換盆日：</strong> ${plant.repotDate}</p>
                         <p><strong>購買處：</strong> ${plant.purchaseFrom}</p>
                         <p><strong>備註：</strong> ${plant.notes}</p>
+                        <hr style="border: 0; border-top: 1px solid #eee; margin: 15px 0;">
+                        <h3>🌱 生長紀錄時間軸</h3>
+                        <div class="timeline">
+                            ${historyHtml}
+                        </div>
                     `;
                 } else {
                     container.innerHTML = `<h2>找不到這顆植物的資料</h2><p>代號：${id}</p>`;
