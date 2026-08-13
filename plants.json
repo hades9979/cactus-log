@@ -1,18 +1,19 @@
 [
  {
     "id": "A001",
-    "image":"https://github.com/hades9979/cactus-log/blob/main/%E6%93%B7%E5%8F%96.PNG?raw=true",
-    "name": "我的第一顆鸞鳳玉",
-    "species": "鸞鳳玉-四肋",
-    "features": "四肋、星點分明、狀態健康",
-    "potSize": "3 吋",
-    "purchaseDate": "2026-08-13",
-    "repotDate": "2026-08-13",
-    "purchaseFrom": "田尾某溫室",
-    "notes": "剛買回家，頭好壯壯！",
+    "image":"https://github.com/hades9979/cactus-log/blob/main/5.png?raw=true",
+    "name": "雷神王妃白中斑",
+    "species": "龍舌蘭",
+    "features": "收到時未發根",
+    "potSize": "4 吋",
+    "purchaseDate": "2026-07-22",
+    "repotDate": "2026-07-25",
+    "purchaseFrom": "老橋玉",
+    "notes": "美的",
     "history": [
-      { "date": "2026-08-13", "event": "入手帶回，換3吋紅陶盆" },
-      { "date": "2026-10-01", "event": "度過夏眠期，長出新星點" }
+      { "date": "2026-07-22", "event": "收到" },
+      { "date": "2026-07-25", "event": "入盆" },
+      { "date": "2026-07-31", "event": "底葉烏青" }
     ]
   },
   {
